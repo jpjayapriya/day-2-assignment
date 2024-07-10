@@ -1,0 +1,8 @@
+﻿<p>Student name is @ViewBag.name</p>
+<p>Student usn is @ViewBag.usn</p>
+<h1>displaying details</h1>
+@foreach (var k in ViewData)
+{
+    <p>@k.Key:@k.Value</p>
+}
+<hr/>
